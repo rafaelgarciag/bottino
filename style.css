@@ -1,0 +1,15 @@
+@import url("css/reticula.css");
+/*@import url("css/reset.css");
+/* Patrick Hand - handlee */
+
+header img{
+	margin: 10px 0;
+	width: 100%;
+
+}
+
+ul {
+	align-items: stretch;
+	align-content: space-between;
+	width: 100%
+}
