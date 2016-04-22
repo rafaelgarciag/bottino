@@ -1,15 +1,68 @@
 @import url("css/reticula.css");
-/*@import url("css/reset.css");
+@import url("css/reset.css");
 /* Patrick Hand - handlee */
+
+html body {
+	color: #000;
+	height: 100%;
+	/*font-family: "Patrick Hand SC", cursive, sans-serif;*/
+	font-family: 'Caveat', cursive;
+	font-weight: 700;
+	font-size: 30px;
+
+}
+
+/*======= Header Style =======*/
+header footer {
+	font-size: 18px;
+	position: fixed;
+}
 
 header img{
 	margin: 10px 0;
 	width: 100%;
+}
+
+.carrito{
+	height: 30px;
+	width: 30px;
+	margin: 20px 0;
+}
+
+.navegador {
+	padding: 5px 0;
+}
+
+/*======= Section Style =======*/
+.full-height {
+    height: 100%;
+    
+    
+}
+
+.icono {
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+	height: 30px;
+	width: 30px;
+	margin: 10px 0;
+	padding: 0 20px;
 
 }
 
-ul {
-	align-items: stretch;
-	align-content: space-between;
-	width: 100%
+.same-height {
+    max-height: 320px;
+    overflow: hidden;
+}
+
+/*======= Footer Style =======*/
+footer {
+	padding: 10px 0;
+	color: #807A79;
+	height: 100%;
+	/*font-family: "Patrick Hand SC", cursive, sans-serif;*/
+	font-family: 'Roboto Slab', serif;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1px;
 }
