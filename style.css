@@ -9,10 +9,17 @@ html body {
 	font-family: 'Caveat', cursive;
 	font-weight: 700;
 	font-size: 30px;
-
+}
+a {
+	text-decoration: none;
+	color: #000;
 }
 
 /*======= Header Style =======*/
+header {
+	margin-bottom: 30px;
+}
+
 header footer {
 	font-size: 18px;
 	position: fixed;
@@ -23,6 +30,34 @@ header img{
 	width: 100%;
 }
 
+nav li {
+	list-style: none;
+	position: relative;
+}
+li.submenu:hover{
+	background-color: #C7C7C7;
+}
+
+li li a {
+	width: 250px;
+	display: block;
+}
+/*Menú desplegable*/
+li.submenu {
+   width: 250px;
+   margin:0;
+   display:block;
+   background:#F8F8F8;
+   border:1px #ccc solid;
+   position: relative;
+   right: 10%;
+   top:-1px;
+}
+li.acerca:hover li.submenu:hover {
+	display: block;
+	background-color: red;
+}
+
 .carrito{
 	height: 30px;
 	width: 30px;
@@ -31,6 +66,9 @@ header img{
 
 .navegador {
 	padding: 5px 0;
+}
+.navegador:hover {
+	text-decoration: underline;
 }
 
 /*======= Section Style =======*/
@@ -47,7 +85,13 @@ header img{
 	width: 30px;
 	margin: 10px 0;
 	padding: 0 20px;
-
+}
+.icono:hover {
+	-webkit-filter: none;
+	filter: none;
+	height: 60px;
+	width: 60px;
+	margin: -5px;
 }
 
 .same-height {
