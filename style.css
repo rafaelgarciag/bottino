@@ -18,47 +18,25 @@ a {
 /*======= Header Style =======*/
 header {
 	margin-bottom: 30px;
+	top: 0;
 }
 
-header footer {
+header, footer {
 	font-size: 18px;
-	position: fixed;
+	box-sizing: border-box;
+	width: 100%;
 }
-
 header img{
 	margin: 10px 0;
 	width: 100%;
 }
-
-nav li {
-	list-style: none;
-	position: relative;
+.caja{
+	height: 30px;
+	width: 150px;
+	margin: 20px 0;
+	border-style: none;
 }
-li.submenu:hover{
-	background-color: #C7C7C7;
-}
-
-li li a {
-	width: 250px;
-	display: block;
-}
-/*Menú desplegable*/
-li.submenu {
-   width: 250px;
-   margin:0;
-   display:block;
-   background:#F8F8F8;
-   border:1px #ccc solid;
-   position: relative;
-   right: 10%;
-   top:-1px;
-}
-li.acerca:hover li.submenu:hover {
-	display: block;
-	background-color: red;
-}
-
-.carrito{
+.carrito, .lupa{
 	height: 30px;
 	width: 30px;
 	margin: 20px 0;
@@ -66,6 +44,7 @@ li.acerca:hover li.submenu:hover {
 
 .navegador {
 	padding: 5px 0;
+	list-style: none;
 }
 .navegador:hover {
 	text-decoration: underline;
@@ -74,8 +53,6 @@ li.acerca:hover li.submenu:hover {
 /*======= Section Style =======*/
 .full-height {
     height: 100%;
-    
-    
 }
 
 .icono {
@@ -98,6 +75,24 @@ li.acerca:hover li.submenu:hover {
     max-height: 320px;
     overflow: hidden;
 }
+.copain {
+	height: 70px;
+	width: 150px;
+}
+/*================Editorial===================*/
+h1{
+	font-size: 54px;
+	font-weight: 700;
+	padding-bottom: 30px;
+}
+p{
+	font-family: none;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 30px;
+	padding-bottom: 30px;
+}
 
 /*======= Footer Style =======*/
 footer {
@@ -109,4 +104,5 @@ footer {
 	font-size: 12px;
 	font-weight: 700;
 	letter-spacing: 1px;
+	bottom: 0;
 }
