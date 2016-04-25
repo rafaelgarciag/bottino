@@ -80,6 +80,17 @@ header img{
 	height: 70px;
 	width: 150px;
 }
+.producto {
+	height: 150px;
+	width: 150px;
+	margin: 10px 0;
+	padding: 0 20px;
+}
+.carrito2 {
+	height: 30px;
+	width: 30px;
+	margin: 0;
+}
 /*================Editorial===================*/
 h1 {
 	font-size: 54px;
@@ -116,6 +127,20 @@ h2 {
 	font-size: 16px;
 	font-weight: 400;
 }
+h3, h4 {
+	font-family: none;
+	font-size: 16px;
+	font-weight: 400;
+}
+h3 {
+	font-size: 18px;
+}
+h5 {
+	padding: 20px 0 0 0;
+}
+h5 a:hover {
+	color: blue;
+}
 /*================Formulario===================*/
 .formulario {
 	padding: 0;
@@ -151,7 +176,7 @@ footer {
 	font-size: 12px;
 	font-weight: 700;
 	letter-spacing: 1px;
-	position: fixed;
+	
 	height: 40px;
 	bottom: 0;
 }
