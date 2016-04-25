@@ -22,9 +22,10 @@ header, footer {
 	width: 100%;
 }
 header {
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	top: 0;
 	font-size: 30px;
+	height: 230px;
 }
 
 header img{
@@ -33,7 +34,7 @@ header img{
 }
 .caja{
 	height: 30px;
-	width: 150px;
+	width: 200px;
 	margin: 20px 0;
 	border-style: none;
 }
@@ -42,7 +43,6 @@ header img{
 	width: 30px;
 	margin: 20px 0;
 }
-
 .navegador {
 	padding: 5px 0;
 	list-style: none;
@@ -176,7 +176,7 @@ footer {
 	font-size: 12px;
 	font-weight: 700;
 	letter-spacing: 1px;
-	
+	position: fixed;
 	height: 40px;
 	bottom: 0;
 }
